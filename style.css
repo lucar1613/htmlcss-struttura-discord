@@ -1,0 +1,18 @@
+
+header{
+    
+    text-align-last: center;
+
+}
+
+.pippo{
+    
+    justify-content: right;
+    text-align: right;
+}
+.topolino{
+    
+    justify-content: left;
+    text-align: left;
+}
+
