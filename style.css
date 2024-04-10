@@ -1,18 +1,93 @@
-
+*{
+    margin: 0em;
+    padding: 0;
+    box-sizing: 0;
+     
+}
 header{
     
     text-align-last: center;
-
+    background-repeat: no-repeat;
+    background-image: url(jumbo.png);
+    background-size: cover;
+    height: 200px;
+}
+.flex{
+    display: flex;
+}
+.gianni{
+    text-align-last: center;
+    background-repeat: no-repeat;
+    background-image: url(stars.svg);
+    background-size: cover;
 }
 
-.pippo{
-    
-    justify-content: right;
-    text-align: right;
-}
-.topolino{
-    
-    justify-content: left;
-    text-align: left;
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.button1{
+    background-color: transparent;
+    border-color: transparent;
+    justify-content: space-around;
+}
+
+div.column{
+    padding: 2rem;
+}
+div.column-small{
+    width: 30%;
+}
+div.column-big{
+    width: 50%;  
+}
+.center{
+    justify-content: center;
+    align-items: center;
+    text-align-last: center;
+    inline-size: initial
+}
+footer{
+    display: block;
+    background-color: #23272a;
+    color: white;
+    height: auto;
+    padding: 2rem;
+    justify-content: space-between;
+    contain: ;
+}
+footer p{
+    width: 20%;
+}
+.container{  
+    justify-content: space-between;
+    text-align: inherit;
+}
+
+  footer .container{
+    display:flex
+  } 
+
+
+div footer{
+    justify-content: space-between;
+     
+}
+.inline{
+    display: block;
+   
+
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
